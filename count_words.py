@@ -25,7 +25,7 @@ def update_count(*args):
         'punct': punct_weight.get(),
         'newline': newline_weight.get()
     })
-    count_label.config(text=f"총 문자 수: {total_count:.2f}")
+    count_label.config(text=f"총 글자수: {total_count:.2f}")
 
 def set_weights():
     weights = [
